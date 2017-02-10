@@ -1,0 +1,34 @@
+/*author: Deepika Priyanka V
+description: replcating home page and services page of electron omega company website
+date:3/20/2016 */
+img{
+  height: 180px;
+  width: 270px;
+  object-fit: cover;
+}
+.servimgheader{
+color: #000000;
+font-family: sans-serif;
+text-transform: capitalize;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+margin-left: 15px;
+position: absolute;
+}
+.servimgtext{
+  font-weight:bold;
+  position: absolute;
+  font-size: 14px;
+  font-family: serif;
+  margin: 15px 0px 0px 15px;
+  width: 672px;
+  line-height: 15px;
+}
+
+ul{
+  margin-top: -10px;
+}
+li{
+  text-transform: capitalize;
+}

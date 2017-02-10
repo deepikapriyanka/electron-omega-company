@@ -1,0 +1,286 @@
+/*author: Deepika Priyanka V
+description: replcating home page and services page of electron omega company website
+date:3/20/2016
+*/
+body{
+  background-color: #F9F9F9;
+}
+a{
+  text-decoration: none;
+}
+.wrapper{
+margin-left: auto;
+margin-right: auto;
+width: 980px;
+}
+#header{
+background-color:#333333;
+height: 66px;
+width: 980px;
+border-radius: 5px;
+}
+#headtxt{
+color: white;
+position: relative;
+top: 15px;
+left: 5px;
+font-size: 30px;
+font-weight: bold;
+font-family: Helvetic;
+text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.498);
+}
+#headerbar{
+  margin-top: 4px;
+  height: 25px;
+  width: 122.5px;
+}
+.option-heading{
+  font-family: serif;
+  font-size: xx-large;
+  padding: 10px 0px 0px 5px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.options{
+  background-color: #252525;
+  color:white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2.5px;
+  font-family: sans-serif;
+  font-size: 12px;
+  height: 20px;
+  font-size: 14px;
+  border-right: 1px solid rgb(51,51,51);
+}
+.options:hover, a:hover{
+  background-color: rgb(153,153,153);
+}
+a:link,a:active,a:visited {
+    color: white;
+}
+.service{
+  position: relative;
+      left: 122.5px;
+      top: -25px;
+  }
+.contact{
+  position: relative;
+      left: 244.5px;
+      top: -50px;
+  }
+  .about{
+    position: relative;
+    left: 366.5px;
+    top: -75px;
+  }
+.guarantee{
+  position: relative;
+  left: 488.5px;
+bottom: 100px;
+}
+.whyus{
+  position: relative;
+    left: 610.5px;
+    bottom: 125px;
+}
+.career{
+  position: relative;
+  left: 732.5px;
+  top: -150px;
+}
+.terms{
+  position: relative;
+  left: 855px;
+  bottom: 175px;
+}
+.slider{
+height: 445px;
+width: 975px;
+margin-top: 10px;
+border: 5px ridge #FFFFFF;
+border-radius: 5px;
+}
+
+.bjqs-caption:hover{
+  font-size: 20px !important;
+  font-weight: bold !important;
+	background: #FFFFFF;
+  display: block !important;
+}
+.bjqs-caption{
+  height: 25px;
+  background:fixed;
+}
+ul.bjqs-controls.v-centered li a{
+  display: block;
+    padding: 5px;
+    color: #000;
+    font-size: 40px;
+    text-decoration: none;
+    opacity: 0;
+}
+ul.bjqs-controls.v-centered li a:hover{
+	background:rgba(153,153,153);
+	color:#fff;
+  opacity: 0.8;
+}
+
+hr{
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.cont{
+  width: 759px;
+  height: 428px;
+  object-fit: cover;
+  margin-left: 80px !important;
+}
+.contactbox{
+  width: 241px;
+  height: 30px;
+  background-color: rgb(0,0,0);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0px 4px 0px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+    bottom: 420px;
+    left: 40px;
+}
+.figureblock{
+  float: left;
+    position: relative;
+    height: 300px;
+}
+.figureblock2{
+    height: 180px !important;
+    text-decoration: none !important;
+}
+.figureblock3{
+    height: 330px !important;
+    text-decoration: none !important;
+}
+.imgheader{
+    color: #000000;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+  }
+.imgtext{
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+  //font-size: 14px;
+  font-family: serif;
+  margin: 15px 0px 0px 26px;
+}
+.ulcolor{
+  color: rgb(102,102,102);
+  width: 800px;
+  position: relative;
+  left: 15px;
+  line-height: 20px;
+  text-decoration: none !important;
+}
+ul li span{
+  color: black;
+  font-size: 14px;
+}
+.ulcolor2{
+  position: relative;
+  left: 0px !important;
+  margin-left: -15px !important;
+}
+.read{
+  position: relative;
+  left: 240px;
+}
+.footer{
+  height: 25px;
+  font-weight:bold;
+  font-size: 14px;
+  font-family: serif;
+}
+.footer-email{
+  height: 40px;
+  width: 980px;
+  margin: 0px 0px 10px 0px !important;
+}
+.footer-cname{
+  float: right;
+}
+/*--css for whyus webpage---*/
+
+.whyuscont{
+  height: 479px;
+  width: 450px;
+  object-fit: cover;
+}
+/*--css for terms webpage---*/
+
+.termstext{
+  font-family: serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.termscaption{
+    text-transform: uppercase;
+}
+/*--css for price-guarantee webpage--*/
+
+.righttext{
+  font-family: serif;
+  font-weight: bold;
+  position: absolute;
+  line-height: 20px;
+  color: rgb(102,102,102);
+  width: auto;
+}
+.bottomtxt{
+  position: relative !important;
+  margin-left: -10px;
+}
+/*---- css for contact.html-----*/
+#cont-omega{
+  position: relative;
+    top: -81px;
+    left: 235px;
+}
+input{
+  margin-bottom: 5px;
+  background-color: rgb(51,51,51);
+  height: 25px;
+  color: white;
+  font-size: 14px;
+  padding-left: 5px;
+}
+textarea{
+  background-color: rgb(51,51,51);
+  color: white;
+  font-size: 14px;
+  overflow-y: auto;
+  max-height: 130px ;
+  padding-left: 6px;
+  resize: none;
+}
+::-webkit-input-placeholder{
+  color: white;
+}
+:-moz-placeholder{
+  color: white;
+}
+::-moz-placeholder{
+  color: white;
+}
+:-ms-input-placeholder{
+  color: white;
+}
